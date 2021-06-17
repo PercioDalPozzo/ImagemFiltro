@@ -52,7 +52,7 @@ namespace ImagemFiltro
 
         private void button7_Click(object sender, EventArgs e)
         {
-            new EfeitoUltraBlur().Desfocar(imgOrigem, imgResultado, Convert.ToInt32(raio.Text), Convert.ToInt32(peso.Text));
+            new EfeitoUltraBlur().Aplicar(imgOrigem, imgResultado, Convert.ToInt32(raio.Text), Convert.ToInt32(peso.Text));
         }
 
         private void button8_Click(object sender, EventArgs e)
